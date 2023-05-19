@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/home"
+        android:id="@+id/home"
+
+        android:icon="@drawable/baseline_home_24"
+        />
+
+
+    <item android:title="@string/quick_scan"
+        android:id="@+id/quick_scan"
+        android:icon="@drawable/baseline_mobile_friendly_24"/>
+
+
+
+    <item android:title="@string/custom_scan"
+        android:id="@+id/custom_scan"
+        android:icon="@drawable/baseline_find_in_page_24"/>
+
+
+
+
+    <item android:title="@string/shield"
+
+        android:id="@+id/shield"
+        android:icon="@drawable/baseline_shield_24"/>
+
+
+</menu>

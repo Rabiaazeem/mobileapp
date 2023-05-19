@@ -1,0 +1,43 @@
+<!-- home_fragment.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:text="Your Device is Protected"
+        >
+
+    </TextView>
+    <ImageView
+        android:id="@+id/SplashScreenImage"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/correct"
+
+        />
+
+    <!-- Other views in the com.example.malware-shield.HomeFragment -->
+    <!-- fragment_home.xml -->
+
+    <!-- Button for file selection -->
+
+
+</LinearLayout>
+

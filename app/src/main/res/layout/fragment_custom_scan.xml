@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".CustomScanFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Scan"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        >
+
+        <EditText
+            android:id="@+id/fileNameEditText"
+            android:layout_width="245dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:layout_marginTop="144dp"
+            android:autofillHints="setect file"
+            android:backgroundTint="#ffffff"
+            android:hint="@string/enter_file_name"
+            android:inputType="textUri"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textColor="#F6F3F3"
+            android:textColorHint="#CCCCCC" />
+
+        <Button
+            android:id="@+id/selectFileButton"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="144dp"
+            android:text="@string/browse"
+
+            android:textColor="@color/purple_700"
+            android:backgroundTint="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/Scan"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/scan"
+            android:textColor="@color/white"
+            android:background="@drawable/round_button"
+            />
+
+        <!-- Text box to display the selected file name -->
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

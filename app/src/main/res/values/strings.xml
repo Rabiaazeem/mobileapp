@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">malwareShield</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="quick_scan">Quick Scan</string>
+    <string name="custom_scan">Custom Scan</string>
+    <string name="shield">Shield</string>
+    <string name="Setect_file">Button</string>
+    <string name="setect_file">Setect File</string>
+    <string name="select_file">Select File</string>
+    <string name="selectfile">Select_File</string>
+    <string name="browse">Browse</string>
+    <string name="scan">Scan</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string-array name="list_manage">
+    <item>Delete</item>
+    <item>Ignore</item>
+    <item>Quarantine</item>
+    </string-array>
+</resources>

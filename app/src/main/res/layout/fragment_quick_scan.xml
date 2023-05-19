@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:background="#000000"
+android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quick Scan the Device"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        ></TextView>
+
+    <ProgressBar
+        android:id="@+id/progress_circular_id"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_shape"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="30"
+        android:progressDrawable="@drawable/circular"></ProgressBar>
+<TextView
+    android:id="@+id/textview_progress_status_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="50%"
+    android:layout_centerInParent="true"
+    android:textStyle="bold"
+    android:textColor="@color/purple_700"
+    android:textSize="35dp">
+</TextView>
+
+<Button
+    android:id="@+id/check"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="55dp"
+    android:text="Scan"
+    android:background="@color/round_button_color"
+    android:textColor="@color/white"
+    android:layout_below="@+id/progress_circular_id"
+    android:layout_centerHorizontal="true"
+    >
+</Button>
+</RelativeLayout>
